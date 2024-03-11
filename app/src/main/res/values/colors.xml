@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="mainColor">#009688</color>
+    <color name="mainColor02">#ffffff</color>
+    <color name="btnColor">#FF7A30</color>
+    <color name="textColor1">#ffffff</color>
+    <color name="uosColor01">#696C6C</color>
+    <color name="signinColor01">#000000</color>
+    <color name="homeTextColor">#000000</color>
+
+</resources>

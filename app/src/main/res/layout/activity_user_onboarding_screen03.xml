@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/home_app"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".User_Onboarding_Screen_03"
+    android:background="@color/mainColor">
+
+    <ImageView
+        android:id="@+id/uos3_img_01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:clickable="true"
+        app:layout_constraintBottom_toTopOf="@+id/uos03_text_01"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.13"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/uos03_icon_01"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/uos03_text_01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:fontFamily="@font/poppins_extrabold"
+        android:text="@string/uos03_text_01"
+        android:textColor="@color/textColor1"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.288"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/uos03_img_01"
+        android:layout_width="230dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/uos03_text_01"
+        app:srcCompat="@drawable/uos03_img_01"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/uos03_img_02"
+        android:layout_width="230dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.901"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/uos03_img_01"
+        app:srcCompat="@drawable/uos03_img_02"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/uos03_text_02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="@string/uos03_text_02"
+        android:textColor="@color/textColor1"
+        android:textSize="29sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.217"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/uos03_img_02" />
+
+    <ImageView
+        android:id="@+id/uos03_btn_01"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/uos03_text_02"
+        app:layout_constraintTop_toBottomOf="@+id/uos03_img_02"
+        app:layout_constraintVertical_bias="0.132"
+        app:srcCompat="@drawable/uos03_btn_01"
+        android:clickable="true"
+        tools:ignore="ContentDescription"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
