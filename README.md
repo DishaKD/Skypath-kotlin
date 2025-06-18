@@ -22,11 +22,6 @@ The project focuses purely on front-end development for Android using Kotlin. It
 - 📱 Responsive layouts for multiple screen sizes  
 - 🎨 Material Design styling with clean XML layout structure
 
-## 📸 UI Screenshots
-
-> *(Add screenshots of your UI mockups here)*  
-> Example:  
-> ![Flight Dashboard](app/src/main/res/drawable-port/WhatsApp Image 2025-06-19 at 02.30.30_093478e4.jpg)  
 
 ## 🛠️ How to Run
 
